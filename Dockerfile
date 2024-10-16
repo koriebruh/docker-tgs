@@ -16,4 +16,8 @@ RUN pecl install redis && \
 EXPOSE 80
 
 # Command to run Apache in foreground
+<<<<<<< HEAD
 CMD ["apache2-foreground"]
+=======
+CMD ["apache2-foreground"]
+>>>>>>> 6a4165e (add plugin redis)

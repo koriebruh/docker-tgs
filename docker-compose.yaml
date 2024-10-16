@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 version: '3'
+=======
+
+>>>>>>> 6a4165e (add plugin redis)
 services:
   php:
     container_name: php-server
@@ -9,7 +13,11 @@ services:
       - ./src:/var/www/html
     ports:
       - 8080:80
+<<<<<<< HEAD
     depends_on:
+=======
+    depends_on: # wait until mysql start
+>>>>>>> 6a4165e (add plugin redis)
       - mysql
   mysql:
     image: mysql:latest
@@ -23,4 +31,8 @@ services:
       - ./mysql_data:/var/lib/mysql
   redis:
     image: redis:latest
+<<<<<<< HEAD
     container_name: redis-server
+=======
+    container_name: redis-server
+>>>>>>> 6a4165e (add plugin redis)

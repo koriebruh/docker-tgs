@@ -20,6 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+<<<<<<< HEAD
 // define( 'DB_NAME', 'database_name_here' );
 //
 // /** Database username */
@@ -37,6 +38,8 @@
 // /** The database collate type. Don't change this if in doubt. */
 // define( 'DB_COLLATE', '' );
 
+=======
+>>>>>>> 6a4165e (add plugin redis)
 define( 'DB_NAME', 'wordpress_dp' );
 define( 'DB_USER', 'wordpress_user' );
 define( 'DB_PASSWORD', 'sandi_wordpress' );
@@ -51,6 +54,10 @@ define('WP_REDIS_DATABASE', 0); // Pilih 0-15
 define('WP_REDIS_TIMEOUT', 1);
 define('WP_REDIS_READ_TIMEOUT', 1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6a4165e (add plugin redis)
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -96,7 +103,11 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
+<<<<<<< HEAD
 
+=======
+define('FS_METHOD', 'direct');
+>>>>>>> 6a4165e (add plugin redis)
 
 
 /* That's all, stop editing! Happy publishing. */
